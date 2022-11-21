@@ -1,5 +1,7 @@
 # Plug and Play Active Learning for Object Detection
-<img src="resources/intro_new.png" style="width:480px;"/>
+<p align="center">
+<img src="resources/intro_new.png" style="width:960px;"/>
+</p>
 
 PyTorch implementation of our paper: [Plug and Play Active Learning for Object Detection](TBD)
 
@@ -97,7 +99,7 @@ PPAL
           |--voc_827_labeled_3.json
           `--voc_827_unlabeled_3.json
 ```
-- Please refer to [data_setup.sh](TBD) and [create_al_dataset.py](TBD) to generate you own active learning annotation.
+- Please refer to [data_setup.sh](https://github.com/ChenhongyiYang/PPAL/blob/main/tools/al_data/data_setup.sh) and [create_al_dataset.py](https://github.com/ChenhongyiYang/PPAL/blob/main/tools/al_data/create_al_dataset.py) to generate you own active learning annotation.
 ### Run active learning
 - You can run active learning using a single command with a config file. For example, you can run COCO and Pascal VOC RetinaNet experiments by
 ```shell

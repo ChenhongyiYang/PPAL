@@ -1,7 +1,6 @@
 # Paths
 config_dir  = 'configs/voc_active_learning/'
 work_dir    = 'work_dirs/'
-data        = 'data/VOC0712/'
 
 # Environment setting
 python_path = 'python'
@@ -9,9 +8,9 @@ port        = 29500
 gpus        = 8
 
 # Data setting
-oracle_path         = data + 'annotations/trainval_0712.json'
-init_label_json     = data + 'annotations/active_learning/tune/voc_labeled_5.json'
-init_unlabeled_json = data + 'annotations/active_learning/tune/voc_unlabeled_5.json'
+oracle_path         = 'data/VOC0712/annotations/trainval_0712.json'
+init_label_json     = 'data/active_learning/voc/voc_827_labeled_1.json'
+init_unlabeled_json = 'data/active_learning/voc/voc_827_unlabeled_1.json'
 init_model          = None
 
 # Config setting

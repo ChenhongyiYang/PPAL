@@ -1,7 +1,6 @@
 # Paths
 config_dir  = 'configs/coco_active_learning/'
 work_dir    = 'work_dirs/'
-data        = 'data/coco/'
 
 # Environment setting
 python_path = 'python'
@@ -9,9 +8,9 @@ port        = 29500
 gpus        = 8
 
 # Data setting
-oracle_path         = data + 'annotations/instances_train2017.json'
-init_label_json     = data + 'annotations/active_learning/final_datasets/tune/coco_labeled_8.json'
-init_unlabeled_json = data + 'annotations/active_learning/final_datasets/tune/coco_unlabeled_8.json'
+oracle_path         = 'data/coco/annotations/instances_train2017.json'
+init_label_json     = 'data/active_learning/coco/coco_2365_labeled_1.json'
+init_unlabeled_json = 'data/active_learning/coco/coco_2365_unlabeled_1.json'
 init_model          = None
 
 # Config setting
