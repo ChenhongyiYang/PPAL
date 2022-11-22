@@ -3,7 +3,7 @@
 <img src="resources/intro_new.png" style="width:960px;"/>
 </p>
 
-PyTorch implementation of our paper: [Plug and Play Active Learning for Object Detection](TBD)
+PyTorch implementation of our paper: [Plug and Play Active Learning for Object Detection](https://arxiv.org/pdf/2211.11612.pdf)
 
 ## Requirements
 
@@ -110,5 +110,10 @@ python tools/run_al_voc.py --config al_configs/voc/ppal_retinanet_voc.py --model
 ## Ciation
 
 ```
-TBD
+@article{yang2022ppal,
+  title={Plug and Play Active Learning for Object Detection},
+  author={Yang, Chenhongyi and Huang, Lichao and Crowley, Elliot J},
+  journal={arXiv preprint arXiv:2211.11612},
+  year={2022}
+}
 ```
