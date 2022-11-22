@@ -15,11 +15,11 @@ python tools/al_data/create_al_dataset.py \
        --out-root data/active_learning/coco \
        --n-diff 3 \
        --n-labeled 2365 \
-       --datast coco
+       --dataset coco
 
 python tools/al_data/create_al_dataset.py \
        --oracle-path data/VOC0712/annotations/trainval_0712.json \
        --out-root data/active_learning/voc \
        --n-diff 3 \
        --n-labeled 827 \
-       --datast voc
+       --dataset voc
