@@ -107,7 +107,7 @@ python tools/run_al_coco.py --config al_configs/coco/ppal_retinanet_coco.py --mo
 python tools/run_al_voc.py --config al_configs/voc/ppal_retinanet_voc.py --model retinanet
 ```
 - Please check the config file to set up the data paths and environment settings before running the experiments.
-## Ciation
+## Citation
 
 ```
 @article{yang2022ppal,
