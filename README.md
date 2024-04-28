@@ -111,7 +111,7 @@ python tools/run_al_voc.py --config al_configs/voc/ppal_retinanet_voc.py --model
 
 ```
 @InProceedings{yang2024ppal,
-    author    = {{Yang, Chenhongyi and Huang, Zehao and Wang, Naiyan}},
+    author    = {{Yang, Chenhongyi and Huang, Lichao and Crowley, Elliot J.}},
     title     = {{Plug and Play Active Learning for Object Detection}},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     year      = {2024}
